@@ -1,0 +1,283 @@
+/* screen - desktop-3 */
+
+.desktop-3 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 5676px;
+  width: 1440px;
+}
+
+.desktop-3 .overlap-group2 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-13@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 780px;
+  padding: 87.8px 100px;
+  width: 1440px;
+}
+
+.desktop-3 .surname {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-weight: 800;
+  letter-spacing: 0;
+  margin-top: 21px;
+  min-height: 234px;
+  width: 471px;
+}
+
+.desktop-3 .football-is-the-larg {
+  color: #964b00;
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-l);
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0;
+  margin-top: 25px;
+  min-height: 90px;
+  width: 471px;
+}
+
+.desktop-3 .overlap-group-container {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-left: 1.0px;
+  margin-top: 184px;
+  min-width: 1159px;
+}
+
+.desktop-3 .overlap-group9 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  justify-content: flex-end;
+  min-width: 203px;
+  padding: 0 0.0px;
+}
+
+.desktop-3 .leagues-ratings {
+  letter-spacing: 0;
+  margin-bottom: 0.04px;
+  min-height: 14px;
+  width: 109px;
+}
+
+.desktop-3 .vector-container {
+  background-color: var(--key-lime-pie);
+  height: 50px;
+  margin-left: 15px;
+  position: relative;
+  width: 66px;
+}
+
+.desktop-3 .vector {
+  height: 4px;
+  left: 20px;
+  position: absolute;
+  top: 24px;
+  width: 25px;
+}
+
+.desktop-3 .vector-1 {
+  height: 25px;
+  left: 32px;
+  position: absolute;
+  top: 13px;
+  width: 13px;
+}
+
+.desktop-3 .overlap-group {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 36px;
+  min-width: 203px;
+  padding: 0 0.0px;
+}
+
+.desktop-3 .lorem-ipsum-dolor-si-1 {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 35.0px;
+  margin-top: 85px;
+  min-height: 210px;
+  width: 1164px;
+}
+
+.desktop-3 .average-ratings-of-players-in-countries {
+  color: #305522;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  letter-spacing: 0;
+  margin-top: 184px;
+  min-height: 46px;
+  width: 950px;
+}
+
+.desktop-3 .rectangle-19 {
+  background-color: var(--mist-gray);
+  height: 600px;
+  margin-right: 1.0px;
+  margin-top: 40px;
+  width: 1439px;
+}
+
+.desktop-3 .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 1.0px;
+  margin-top: 110px;
+  min-width: 1439px;
+}
+
+.desktop-3 .overlap-group5 {
+  align-items: flex-start;
+  background-color: #5a363a;
+  display: flex;
+  flex-direction: column;
+  min-height: 632px;
+  padding: 68px 99px;
+  width: 604px;
+}
+
+.desktop-3 .overall-league-rating {
+  letter-spacing: 0;
+  min-height: 183px;
+  width: 261px;
+}
+
+.desktop-3 .overlap-group-1 {
+  height: 21px;
+  margin-top: 8px;
+  position: relative;
+  width: 377px;
+}
+
+.desktop-3 .rectangle-18 {
+  background-color: var(--zorba);
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 241px;
+}
+
+.desktop-3 .line-1 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 19px;
+  width: 377px;
+}
+
+.desktop-3 .lorem-ipsum-dolor-si {
+  letter-spacing: 0;
+  margin-top: 44px;
+  min-height: 80px;
+  width: 369px;
+}
+
+.desktop-3 .rectangle-17 {
+  background-color: var(--mist-gray);
+  height: 632px;
+  width: 835px;
+}
+
+.desktop-3 .desktop-3-item {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 1.0px;
+  margin-top: 88px;
+  min-width: 1439px;
+}
+
+.desktop-3 .overlap-group6 {
+  align-items: flex-start;
+  background-color: #305522;
+  display: flex;
+  flex-direction: column;
+  min-height: 632px;
+  padding: 68px 99px;
+  width: 604px;
+}
+
+.desktop-3 .wages-across-leagues {
+  letter-spacing: 0;
+  min-height: 183px;
+  width: 255px;
+}
+
+.desktop-3 .overlap-group1 {
+  align-items: flex-start;
+  background-color: #134291;
+  display: flex;
+  flex-direction: column;
+  min-height: 632px;
+  padding: 68px 99px;
+  width: 604px;
+}
+
+.desktop-3 .surname-1 {
+  letter-spacing: 0;
+  min-height: 183px;
+  width: 369px;
+}
+
+.desktop-3 .overlap-group4 {
+  align-items: flex-start;
+  background-color: #964b00;
+  display: flex;
+  flex-direction: column;
+  min-height: 632px;
+  padding: 56px 85px;
+  width: 604px;
+}
+
+.desktop-3 .most-hardworking-league {
+  letter-spacing: 0;
+  min-height: 183px;
+  width: 430px;
+}
+
+.desktop-3 .overlap-group18 {
+  height: 21px;
+  margin-top: 20px;
+  position: relative;
+  width: 377px;
+}
+
+.desktop-3 .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 1.0px;
+  margin-top: 88px;
+  min-width: 1439px;
+}
+
+.desktop-3 .overlap-group3 {
+  align-items: flex-start;
+  background-color: #cebd24;
+  display: flex;
+  flex-direction: column;
+  min-height: 632px;
+  padding: 68px 99px;
+  width: 604px;
+}
+
+.desktop-3 .top-players-in-each-league {
+  letter-spacing: 0;
+  min-height: 183px;
+  width: 377px;
+}

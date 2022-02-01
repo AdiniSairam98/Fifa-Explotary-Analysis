@@ -1,0 +1,42 @@
+:root { 
+  --black: #000000;
+  --key-lime-pie: #cebd2470;
+  --mist-gray: #c4c4c4;
+  --quill-gray: #d3d3d3;
+  --white: #ffffff;
+  --zorba: #a69494;
+ 
+  --font-size-l: 24px;
+  --font-size-m: 14px;
+  --font-size-s: 11.2px;
+  --font-size-xl: 38px;
+  --font-size-xxl: 50px;
+  --font-size-xxxl: 64px;
+ 
+  --font-family-montserrat: "Montserrat", Helvetica;
+  --font-family-roboto: "Roboto", Helvetica;
+  --font-family-source_sans_pro: "Source Sans Pro", Helvetica;
+}
+.montserrat-semi-bold-black-11-2px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.montserrat-extra-bold-white-50px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.roboto-normal-quill-gray-14px {
+  color: var(--quill-gray);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}

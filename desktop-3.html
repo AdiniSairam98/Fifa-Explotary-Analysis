@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://animaapp.s3.amazonaws.com/launchpad-static/launchpad.js"></script>
+    <script type="text/javascript"
+  src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script type="text/javascript">
+        function initViz() {
+            var containerDiv1 = document.getElementById("visualurl1"),
+                url = "https://public.tableau.com/views/Physical_Player_Rating_in_Countries/Sheet19?"
+                options = {
+                    hideTabs: true,
+                    onFirstInteractive: function () {
+                        console.log("Run this code when the viz has finished loading.");
+                    }
+                };
+  
+            var viz = new tableau.Viz(containerDiv1, url, options);
+
+            var containerDiv2 = document.getElementById("visualurl2"),
+                url2 = "https://public.tableau.com/views/Avg_Rate1/Sheet24?"
+                
+                options2 = {
+                    hideTabs: true,
+                    onFirstInteractive: function () {
+                        console.log("Run this code when the viz has finished loading.");
+                    }
+                };
+  
+            var viz = new tableau.Viz(containerDiv2, url2, options2);
+
+            var containerDiv3 = document.getElementById("visualurl3"),
+            url3 = "https://public.tableau.com/views/Wage_Trend_Analysis/Sheet5?"
+            options3 = {
+                hideTabs: true,
+                onFirstInteractive: function () {
+                    console.log("Run this code when the viz has finished loading.");
+                }
+            };
+
+        var viz = new tableau.Viz(containerDiv3, url3, options3);
+
+        var containerDiv4 = document.getElementById("visualurl4"),
+        url4 = "https://public.tableau.com/views/Leagues_Top_Young/Sheet17?"
+        options4 = {
+            hideTabs: true,
+            onFirstInteractive: function () {
+                console.log("Run this code when the viz has finished loading.");
+            }
+        };
+
+    var viz = new tableau.Viz(containerDiv4, url4, options4);
+
+    var containerDiv5 = document.getElementById("visualurl5"),
+    url5 = "https://public.tableau.com/views/Top3PlayersAcrossLeague/Sheet14?"
+    options5 = {
+        hideTabs: true,
+        onFirstInteractive: function () {
+            console.log("Run this code when the viz has finished loading.");
+        }
+
+
+    
+    };
+
+var viz = new tableau.Viz(containerDiv5, url5, options5);
+
+var containerDiv6 = document.getElementById("visualurl6"),
+    url6 = "https://public.tableau.com/views/Most_Hardworking/Sheet1?"
+    options6 = {
+        hideTabs: true,
+        onFirstInteractive: function () {
+            console.log("Run this code when the viz has finished loading.");
+        }
+
+
+    
+    };
+
+var viz = new tableau.Viz(containerDiv6, url6, options6);
+          
+          
+          }
+          </script>
+    <link rel="stylesheet" type="text/css" href="css/desktop-3.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body  onload="initViz();" style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="desktop-3" />
+    <div class="container-center-horizontal">
+      <div class="desktop-3 screen">
+        <div class="overlap-group2">
+          <h1 class="surname">BEST <br />LEAGUE IN <br />THE WORLD?</h1>
+          <div class="football-is-the-larg" >
+            <font color="white">
+              Football is the most-watched sport across the world. 
+              Football has a fanbase of over 3.5 Billion people, 
+              making it the sport with the largest fanbase. FIFA is the 
+              governing body for football which regulates the rules and ensure the 
+              matches are played fairly.</font>
+          </div>
+          <div class="overlap-group-container">
+            <a href="#firstone">
+            <div class="overlap-group9">
+              <div class="leagues-ratings montserrat-semi-bold-black-11-2px"> Average Player Rating Across Leagues</div>
+              <div class="vector-container">
+                <img class="vector" src="img/vector@2x.svg" />
+                <img class="vector-1" src="img/vector-1@2x.svg" />
+              </div>
+            </div></a>
+            <div class="overlap-group">
+              <a href="#secondone">
+              <div class="leagues-ratings montserrat-semi-bold-black-11-2px">Wage Analysis Across Leagues</div>
+              <div class="vector-container">
+                <img class="vector" src="img/vector@2x.svg" />
+                <img class="vector-1" src="img/vector-3@2x.svg" />
+              </div>
+            </div></a>
+            <div class="overlap-group">
+              <a href="#thirdone">
+              <div class="leagues-ratings montserrat-semi-bold-black-11-2px">Best League for Youth Developement</div>
+              <div class="vector-container">
+                <img class="vector" src="img/vector@2x.svg" />
+                <img class="vector-1" src="img/vector-3@2x.svg" />
+              </div>
+            </div> </a>
+            <div class="overlap-group">
+              <a href="#fourthone">
+              <div class="leagues-ratings montserrat-semi-bold-black-11-2px">Leagues with Most Hardworking Players</div>
+              <div class="vector-container">
+                <img class="vector" src="img/vector@2x.svg" />
+                <img class="vector-1" src="img/vector-3@2x.svg" />
+              </div>
+            </div></a>
+            <div class="overlap-group">
+              <a href="#fifthone">
+              <div class="leagues-ratings montserrat-semi-bold-black-11-2px">Top 3 Players Across all Leagues</div>
+              <div class="vector-container">
+                <img class="vector" src="img/vector@2x.svg" />
+                <img class="vector-1" src="img/vector-3@2x.svg" />
+              </div>
+            </div></a>
+          </div>
+        </div>
+          <div class="lorem-ipsum-dolor-si-1">Football is played across many countries, 
+            and every country has its leagues. Teams compete against each other to win the league.
+             To determine the best league is a rhetorical question, as multiple metrics can be 
+             is used to define the best league. The data story evaluates the best teagues 
+             based on these metrics: Physical Aspects, Overall League Rating, Wages, Youth 
+             Players, Work Rate, Top Players of Leagues based on the Age groups, Position from 2017 to 2022.
+        </div>
+        <div class="average-ratings-of-players-in-countries" > <font SIZE="6">PHYSICALITY OF PLAYERS BASED ON NATIONALITY</font></div>
+        <div id="visualurl1" style="width:1500px; height:1000px;"></div>
+        <div class="lorem-ipsum-dolor-si-1">We can see the countries and the average rating, height, weight, and strength in the map graph. 
+          This is to say every country has a different style of play. It was observed in the African continent that the average strength and height of the players is higher than in America or Spain.
+           This implies that each country adapts to a style of play that matches everyone's playing style. This same logic is applied in leagues where multiple clubs are present with the number of diversities,
+            and the playing style is profoundly impacted. The maps explain the dataset's players in context to their nationality and the nationality ratings. We can see countries with similar ratings next to each other. 
+            This is observed in the case of Europe. The League averages listed in the majority are similar to their countries. The impact of club and league level football affects the national ranking or rating. 
+          Thereby when League is famous, then the countries popularity ranking. 
+          <div class="flex-row">
+          <div class="overlap-group5">
+            <div class="overall-league-rating montserrat-extra-bold-white-50px" id="firstone">OVERALL LEAGUE<br />RATING</div>
+            <div class="overlap-group-1"  >
+              <div class="rectangle-18"></div>
+              <img class="line-1" src="img/line-1@2x.svg" />
+            </div>
+            <p class="lorem-ipsum-dolor-si roboto-normal-quill-gray-14px">
+              The Overall Rating of the leagues shows that the average rating of the players across multiple league this is considered a critical evaluation metric. 
+              This means that the higher the rating, the better the quality of the players in the league. This one of the most outspoken fact of when it comes to football.
+              From the graph, it can be deduced that the ITALIAN SERIE A  is the best league when taken into consideration across all position and years, but this varies based on the position and age as 
+              The Spanish league has been found to have a better average for midfielder above 33. The highest average amount midfielder was found in SERIE A in 2019, meanwhile the lowest was found in 2022.To our 
+              suprise Midfielder were the highest average among the 23-32 age. Barclays Premier League has the higest value of the average value among the teams in the graph. This can be seen through the tool tip, this result was observed across all years. This means all the clubs in the 
+              Barclays Premier League is very competitive have atleast a squad of 9 million value which is most among all leagues , thereby it is safe to infer that every team has high rated players there allowing the league to be competative.
+              </p>
+          </div>
+          <div class="rectangle-17" id="visualurl2"></div>
+        </div>
+        <div class="desktop-3-item">
+          <div class="rectangle-17" id="visualurl3" ></div>
+          <div class="overlap-group6">
+            <div class="wages-across-leagues montserrat-extra-bold-white-50px" id="secondone">WAGES ACROSS LEAGUES</div>
+            <div class="overlap-group-1">
+              <div class="rectangle-18" ></div>
+              <img class="line-1" src="img/line-1@2x.svg" />
+            </div>
+            <p class="lorem-ipsum-dolor-si roboto-normal-quill-gray-14px">
+              Money is the driving factor for players joining clubs that can afford high wages. Thus leagues having higher quality players are better leagues as the clubs can afford to pay them.
+              The sum of the wages per week was calculated along with details like average wages, and the maximum salary paid is also displayed. It can be inferred that the Barclays Premier League is best in terms of wages paid per week.
+              It can also be inferred from the tooltip that the average wages paid by the clubs for players are relatively higher than in other leagues from 2016 to 2022. It can be derived that most of the leagues
+              followed a similar trend pattern till 2019. There has been an apparent increase in the wages paid to the youth player (below 21) this observed in all the leagues. But this can be rebutted in the case of a specific position
+              SERIE A was seen to have higher expenditure than Premier League for players aged above 33 from 2019 to 2021. The major contributor to the wage is the player between 22 and 32. This shows the age where plays 
+              earn the most amount of wages. There has also been a clear shift in the players above 33 who have started making more wages that have always shown a positive trend from 2019. Barclays Premier League had the highest wage
+              amount of $35,310, 450 there is an almost 20 million dollar difference between the second-highest, SERIE A  and Barclays Premier League.
+            </p>
+          </div>
+        </div>
+        <div class="desktop-3-item">
+          <div class="overlap-group1">
+            <div class="surname-1 montserrat-extra-bold-white-50px" id="thirdone">BEST LEAGUE FOR YOUTH PLAYERS</div>
+            <div class="overlap-group-1">
+              <div class="rectangle-18"></div>
+              <img class="line-1" src="img/line-1@2x.svg" />
+            </div>
+            <p class="lorem-ipsum-dolor-si roboto-normal-quill-gray-14px">
+              Leagues play a pivotal role in developing young players clubs as clubs invest vast amounts of money in their youth academy to develop promising young players who can be integrated into the main team,
+             thereby reducing the money spent on the transfer of high-quality players. Leagues with a good quality of high potential players who can become famous players lead to better popularity and league value.
+             From the heatmap, it can be deduced that Portuguese LIGA, ITALY SERIE A and German Bundesliga has the best overall record for producing high quality player , the Portuguese LIGA league produced
+             good number of high potential defenders. The highest potential for midfielder was produced by Spanish Premeria League but the Italian SERIE A produced a consistent number of high quality players of Forward
+             and Goalkeeper position belong to the age of 17 to 21. In overall context the league SERIE A has produced the most highquality players followed by Portuguese LIGA.
+             </p>
+          </div>
+          <div class="rectangle-17" id="visualurl4" ></div>
+        </div>
+        <div class="desktop-3-item">
+          <div class="rectangle-17" id="visualurl6"></div>
+          <div class="overlap-group4">
+            <div class="most-hardworking-league montserrat-extra-bold-white-50px" id="fourthone">LEAGUE WORKRATE DISTRIBUTION</div>
+            <div class="overlap-group18">
+              <div class="rectangle-18" id="visualurl4" ></div>
+              <img class="line-1" src="img/line-1@2x.svg" />
+            </div>
+            <p class="lorem-ipsum-dolor-si roboto-normal-quill-gray-14px">
+              Work Rate is an essential factor that decides the league's mentality in training and becoming better to be the best from the rest. Leagues with high work rate player composition 
+              were found to be due to high value and wage bills. In general, the increased work player was increasing in percentage in all the leagues from 2017 to 2022. The increased work rate shift was mainly observed in the
+              youth player (below 21) and players that have not reached the peak of their career or reached the peak (between 22 to 32) across the years. The highest top 3 average was observed in the 2017 with all 
+              player from FC Barcelona in the Spanish Primera League.The leagues with high rated players and wages had the highest work rate. The Barclays Premier League,German Bundesliga, Italian SERIE A were found to have the highest work rate. The players past their prime had reduced work rates in top value leagues but had relatively higher work rates in the lower leagues. 
+              It was found consistently that MLS and Bundesliga 2 League had most of the increased work rate players above 33. Barclays Perimer league and MLS was the most consistent league in terms of the top 3 rating as it was ranked the 
+              within second or third when it was ranked first for a particular year. 
+  
+            </p>
+          </div>
+        </div>
+        <div class="flex-row-1">
+          <div class="overlap-group3">
+            <div class="top-players-in-each-league montserrat-extra-bold-white-50px" id="fifthone">TOP PLAYERS IN EACH LEAGUE</div>
+            <div class="overlap-group-1">
+              <div class="rectangle-18"></div>
+              <img class="line-1" src="img/line-1-3@2x.svg" />
+            </div>
+            <p class="lorem-ipsum-dolor-si roboto-normal-quill-gray-14px">
+              The heatmap identifies and understands the top 3 players from different leagues based on year and position to compare the top 3 players of each league and sort the league based on the average of the three players.
+              This distribution in the quality of top 3 players based on the Leagues. It can be inferred from the graph that the EFL Two had lower-rated players as they were ranked the least every year and positioned across all 
+              age groups. The French League was the Italian SERIA A had the most consistent rating for players above 33 across different positions. The players in their prime age and developing age that is between 22 and 32 
+              preferred playing in Barclays Premier League as the Barclays Premier League has the highest wage bill meaning the players moved to look to get paid well. The top player in the Barclays Premier League  
+              looked to play in either Spanish Premier League or German Bundesliga. Though historically it was found that older forwards generally did not play in Barclays Premier League but with a top-rated player like L.Messi and 
+              Cristiano Rolando moved to Paris Saint-German and Manchester United Respectively in 2022. It has caused French League 1 and Barclays Premier League to have the highest rating for the year 2022. The top youth player
+              below 21 played in Barclays Premier League or French League 1 as it was found from previous criteria that the French consistently produced high potential youngsters.
+            </p>
+          </div>
+          <div class="rectangle-17" id="visualurl5" style="width:1200px"></div>
+          
+        </div>
+        <div class="desktop-3-item">
+          <div class="rectangle-17"><font SIZE=4 color= "white">
+            Football can be analyzed to many other metrics but based on the analysis of the metric mentioned, which showcased different results based on the metric chosen. Using the study of the results, we found
+            Barclays Premier League to be the best League in the World based on the data used. This conclusion was derived from the fact Barclays Premier League produced a good number of high-ranked potential players. It had 
+            the highest wages in the leagues in comparison, making it one of the most attractive leagues for top-rated players. By comparison, the League was, by comparison, one of the most hard-working leading as it had the highest percentage
+            working rate for players. The overall rating of the Barclays Premier League was always in the top 3 of the top 3 players of each league criteria. The average club value within league is higest among all the leagues, meaning that 
+            there is an uniformity of rating of players among the league. Thus it ensure views that the league will be more competative than the other leagues. This Barclays Premier League is the best among other leagues.
+          </font>  
+           </div>
+          <div class="overlap-group4">
+            <div class="most-hardworking-league montserrat-extra-bold-white-50px" id="fourthone">Conclusion</div>
+            <div class="overlap-group18">
+              <div class="rectangle-18" id="visualurl4" >  
+              </div></div>
+              <img class="line-1" src="img/line-1@2x.svg" />
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
